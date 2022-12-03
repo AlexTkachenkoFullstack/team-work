@@ -101,4 +101,38 @@ img {
   margin-bottom: 60px;
 }
 .hero-button {
+
+}
+
+.Gifts-conteiner{
+width: 1170px;
+margin: 0 auto;
+}
+.Gifts {
+background-color: #fff;
+padding-top: 96px;
+padding-bottom: 137px;
+}
+
+.Gifts-title {
+  text-align: center;
+  margin-bottom: 23px;
+}
+.Gifts-text {
+  text-align: center;
+margin-bottom: 64px;
+}
+.Gifts-list {
+  display: flex;
+  gap: 30px;
+}
+.Gifts-list-text{
+  padding: 24px;
+}
+
+.Gifts-list-title{
+margin-bottom: 74px;
+}
+
+.Gifts-list-item {
 }
