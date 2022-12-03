@@ -1,76 +1,104 @@
 /* =================================================GENERAL================================================== */
 a {
-    text-decoration: none;
-    color: inherit;
-  }
-  
-  p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin: 0;
-  }
-  
-  button {
-    cursor: pointer;
-  }
-  
-  ul,
-  ol {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
-
-  .container {
-    width:1440px;
-    margin: 0 auto;
+  text-decoration: none;
+  color: inherit;
 }
-  /* ===========================================================/GENERAL============================================ */
 
-  /* =======================================================HEADER==================================================== */
-  .header {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
-.container-header{
-display:flex;
-align-items: center;
-} 
-.header-logo{
-    margin-left: 80px;
-    margin-right: 433px;
+
+button {
+  cursor: pointer;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+/* ===========================================================/GENERAL============================================ */
+
+/* =======================================================HEADER==================================================== */
+.header {
+}
+.container-header {
+  display: flex;
+  align-items: center;
+}
+.header-logo {
+  margin-left: 80px;
+  margin-right: 433px;
 }
 .header-nav {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .header-list {
-    display:flex;
-    gap:31px;
+  display: flex;
+  gap: 31px;
 }
 
 /* .header-item:not(:last-child) {
     margin-right: 31px;
 } */
 
-
 .header-button {
-    margin-right: 34px;
-    margin-left: auto;
-
+  margin-right: 34px;
+  margin-left: auto;
 }
-.header-item-link{
-    display: block;
-    padding-top: 47px;
-    padding-bottom: 47px;
+.header-item-link {
+  display: block;
+  padding-top: 47px;
+  padding-bottom: 47px;
 }
 /* ===========================================================/HEADER================================================ */
+/* ===========================================================/HERO================================================ */
+
+.hero {
+}
+.hero-container {
+  display: flex;
+}
+
+.hero-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 50%;
+}
+.hero-box {
+  max-width: 433px;
+}
+.hero-title {
+  margin-bottom: 36px;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 56px;
+  line-height: 69px;
+}
+.hero-text {
+  margin-bottom: 60px;
+}
+.hero-button {
+}
